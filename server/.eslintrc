@@ -1,0 +1,11 @@
+{
+  "parserOptions": {
+    "ecmaVersion": 6
+  },
+  "rules": {
+    "semi": 0,
+    "camelcase": 0,
+    "max-len":["error", 160],
+    "indent": ["error", 2]
+  }
+}

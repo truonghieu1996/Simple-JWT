@@ -1,0 +1,15 @@
+{
+  "name": "jwt-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Truong Hieu",
+  "license": "ISC",
+  "dependencies": {
+    "fs-extra": "^8.0.1",
+    "gulp": "^4.0.2"
+  }
+}
