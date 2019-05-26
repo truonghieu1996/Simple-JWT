@@ -3,9 +3,9 @@ module.exports = {
     http: process.env.APP_PORT_HTTP || 3000
   },
   db: {
-    host: process.env.APP_DB_HOST || 'localhost',
+    host: process.env.APP_DB_HOST || '172.17.0.2',
     port: process.env.APP_DB_PORT || 3306,
-    name: process.env.APP_DB_NAME || 'app-demo',
+    name: process.env.APP_DB_NAME || 'app',
     user: process.env.APP_DB_USER || 'root',
     password: process.env.APP_DB_PWD || '123456',
     poolSize: process.env.APP_DB_POOL_SIZE || 10,

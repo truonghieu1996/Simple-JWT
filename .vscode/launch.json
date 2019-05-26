@@ -7,6 +7,12 @@
         {
             "type": "node",
             "request": "launch",
+            "name": "Init Database",
+            "program": "${workspaceFolder}/setup/db/init.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
             "name": "Launch Program",
             "program": "${workspaceFolder}/server/server.js"
         }

@@ -1,10 +1,11 @@
 const mysql = require('mysql')
 const path = require('path')
-const host = process.env.APP_DB_HOST
-const user = process.env.APP_DB_USER
-const password = process.env.APP_DB_PWD
-const databaseName = process.env.APP_DB_NAME
-const port = process.env.APP_DB_PORT
+const config = require('../../server/config')
+const host = process.env.APP_DB_HOST || config.db.host
+const user = process.env.APP_DB_USER || config.db.user
+const password = process.env.APP_DB_PWD || config.db.password
+const databaseName = process.env.APP_DB_NAME || config.db.name
+const port = process.env.APP_DB_PORT || config.db.port
 const cryptoJS = require('crypto-js')
 const fs = require('fs')
 const secret = process.env.SECRET || 'This1s4Rand0m'
