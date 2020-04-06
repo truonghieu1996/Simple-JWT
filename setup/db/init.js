@@ -8,7 +8,7 @@ const databaseName = process.env.APP_DB_NAME || config.db.name
 const port = process.env.APP_DB_PORT || config.db.port
 const cryptoJS = require('crypto-js')
 const fs = require('fs')
-const secret = process.env.SECRET || 'This1s4Rand0m'
+const secret = process.env.SECRET
 
 const connection = mysql.createConnection({
   host: host,

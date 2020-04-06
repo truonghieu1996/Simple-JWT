@@ -23,7 +23,7 @@ module.exports = {
     expiresInMinutes: 30, // minutes
   },
   crypto: {
-    secret: process.env.SECRET || 'This1s4Rand0m', // use to encrypt user password
+    secret: process.env.SECRET || 'Text1s4Rand0m', // use to encrypt user password
     algorithm: 'aes192'
   }
 }
