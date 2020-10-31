@@ -1,9 +1,7 @@
 const http = require('http')
 const express = require('express')
-
 const config = require('./config')
 const logger = require('./modules/logger')
-
 const app = express()
 
 app.use(express.json())
